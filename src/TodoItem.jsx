@@ -2,7 +2,7 @@ import React from "react";
 
 export function TodoItem({ id, title, completed, toggleTodo, deleteTodo }) {
   return (
-    <li className="list-item">
+    <li>
       <label>
         <input
           type="checkbox"
